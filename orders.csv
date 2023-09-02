@@ -1,0 +1,11 @@
+client_ID,Instrument,side,Quantity,Price
+aa12,Rose,1,100,55
+aa13,Lavender,1,300,100
+,Rose,2,90,45
+aa14,Rose,1,100,65
+aa15,wathusudu,1,50,35
+aa16,Rose,2,300,1
+aa17,Lavender,2,100,50
+aa18,Rose,3,100,80
+a19,Rose,1,102,90
+aa20,Rose,2,100,-1
