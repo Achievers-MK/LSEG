@@ -138,10 +138,10 @@ void processOrders(vector<orders> &Buy, vector<orders> &Sell, orders &order, ofs
                 writeOrder(file, Sell[0]);
                 Sell[0].quantity = Sell[0].quantity - order.quantity;
             }
-            else if (checkNum == 1 && order.execution_status==3){
+            else if (checkNum == 1 && Sell[0].execution_status==2){
                 writeOrder(file, order);
                 writeOrder(file, Sell[0]);
-                order.quantity = order.quantity - Sell[0].quantity;
+                // order.quantity = order.quantity - Sell[0].quantity;
             }
             Sell[0].price = temp_price;
     }
@@ -195,10 +195,10 @@ void processOrders(vector<orders> &Buy, vector<orders> &Sell, orders &order, ofs
                 writeOrder(file, Buy[0]);
                 Buy[0].quantity = Buy[0].quantity - order.quantity;
             }
-            else if (checkNum == 1 && Buy[0].execution_status==3){
+            else if (checkNum == 1 && Buy[0].execution_status==2){
                     writeOrder(file, order);
                     writeOrder(file, Buy[0]);
-                    Buy[0].quantity = Buy[0].quantity - order.quantity;
+                    // Buy[0].quantity = Buy[0].quantity - order.quantity;
             }
             order.price = temp_price;
         }
