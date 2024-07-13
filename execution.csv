@@ -1,15 +1,15 @@
 Order ID,Cliend ID,Instrument,Side,Status,Quantity,Price,Reason,Ececution Time
-ord1,aa12,Rose,1,New,100,55,-,20230902-231135.923
-ord2,aa13,Lavender,1,New,300,100,-,20230902-231135.926
-ord3,,Rose,2,Rejected,90,45,Invalid ID,20230902-231135.926
-ord4,aa14,Rose,1,New,100,65,-,20230902-231135.926
-ord5,aa15,wathusudu,1,Rejected,50,35,Invalid Instrument,20230902-231135.926
-ord6,aa16,Rose,2,Pfill,100,65,-,20230902-231135.926
-ord4,aa14,Rose,1,Fill,100,65,-,20230902-231135.926
-ord6,aa16,Rose,2,Pfill,100,55,-,20230902-231135.926
-ord1,aa12,Rose,1,Fill,100,55,-,20230902-231135.926
-ord7,aa17,Lavender,2,Fill,100,100,-,20230902-231135.926
-ord2,aa13,Lavender,1,Pfill,100,100,-,20230902-231135.926
-ord8,aa18,Rose,3,Rejected,100,80,Invalid Side,20230902-231135.926
-ord9,a19,Rose,1,Rejected,102,90,Invalid Quantity,20230902-231135.926
-ord10,aa20,Rose,2,Rejected,100,-1,Invalid Price,20230902-231135.926
+ord1,aa12,Rose,1,New,100,55,-,20240713-094510.856
+ord2,aa13,Lavender,1,New,300,100,-,20240713-094510.858
+ord3,,Rose,2,Rejected,90,45,Invalid ID,20240713-094510.858
+ord4,aa14,Rose,1,New,100,65,-,20240713-094510.858
+ord5,aa15,wathusudu,1,Rejected,50,35,Invalid Instrument,20240713-094510.858
+ord6,aa16,Rose,2,Pfill,100,65,-,20240713-094510.858
+ord4,aa14,Rose,1,Fill,100,65,-,20240713-094510.858
+ord6,aa16,Rose,2,Pfill,100,55,-,20240713-094510.858
+ord1,aa12,Rose,1,Fill,100,55,-,20240713-094510.858
+ord7,aa17,Lavender,2,Fill,100,100,-,20240713-094510.858
+ord2,aa13,Lavender,1,Pfill,100,100,-,20240713-094510.858
+ord8,aa18,Rose,3,Rejected,100,80,Invalid Side,20240713-094510.858
+ord9,a19,Rose,1,Rejected,102,90,Invalid Quantity,20240713-094510.858
+ord10,aa20,Rose,2,Rejected,100,-1,Invalid Price,20240713-094510.858
